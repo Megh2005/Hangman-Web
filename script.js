@@ -380,3 +380,11 @@ const drawMan = (count) => {
 //New Game
 newGameButton.addEventListener("click", initializer);
 window.onload = initializer;
+
+window.addEventListener(`contextmenu`, (e) => {
+  e.preventDefault();
+});
+
+alert(
+  "This project is for innovation purposes. I don't have any intention to look down upon any belief. For information mail to iammeghdeb@gmail.com"
+);
